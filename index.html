@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CHUCHINUKIS</title>
+	<style type="text/css">
+		body {
+			background-color: #fff4d2;
+			margin: 0;
+			padding: 0;
+			font-family: Arial Narrow ;
+			color: #FFFFFF;
+		}
+		header {
+			border-radius: 25px;
+			min-height: 100px;
+			width: 100%;
+			font-family: Franklin Gothic Medium;
+			font-size: 4em;
+			text-align: center;
+			color: #131000;
+			background-color: #fff4d2;
+			margin: 20px 0;
+			padding-top: 20px;
+			
+		}
+		nav {
+			border-radius: 15px;
+			height: 60px;
+			width: 100%;
+			margin: 20px 0;
+			background-color: #ee610d;
+			color: #ff9200;
+			padding-top: 10px;
+			font-size: 1.2em;
+			font-weight: bold;
+			font-family:  Yu Gothic UI Semibold;
+		}
+		*{
+			margin: 0px;
+			padding: 0px;
+		}
+		ul, ol{
+			list-style: none;
+		}
+		ul {
+			list-style: none;
+			display: grid;
+			grid-template-columns: repeat(5, 1fr);
+			padding: 0;
+		}
+		li {
+			text-align: center;
+			font-family: Constantia;
+		}
+		a {
+			text-decoration: none;
+			color: black;
+		}
+		main {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			width: 100%;
+		}
+		section {
+			border-radius: 15px;
+			flex: 3;
+			padding: 20px;
+			margin: 20px;
+			background-color: #d0c5b0;
+			font-family: sans-serif;
+			color: #030101;
+		}
+		aside {
+			border-radius: 15px;
+			background-color: #ff9200;
+			font-family: Franklin Gothic Medium;
+			font-size: 1.2em;
+			color: #fff4d2;
+			flex: 1;
+			margin: 20px;
+			padding: 20px;
+		}
+		footer {
+			background-color: #ff9200;
+			height: 295px;
+			width: 100%;
+			font-family: serif;
+			color: #fff4d2;
+			font-size: 1em;
+			text-align: center;
+			padding-top: 20px;
+		}
+		ol {
+			list-style: none;
+			padding: 0;
+		}
+		img {
+			width: 125%;
+			max-height: 800px;
+			object-fit: cover;
+		}
+		div {
+			display: grid;
+			grid-template-columns: repeat(auto-fill, minmax(155px, 1fr));
+			gap: 50px;
+		}
+
+		@media (max-width: 768px) {
+			ul {
+				grid-template-columns: repeat(3, 1fr);
+			}
+			main {
+				flex-direction: column;
+			}
+			section, aside {
+				width: auto;
+				margin: 10px;
+			}
+		}
+
+		@media (max-width: 480px) {
+			header {
+				font-size: 1.8em;
+			}
+			nav {
+				font-size: 1em;
+			}
+			footer {
+				font-size: 1em;
+			}
+		}
+		.titulos1{
+			color: #c73b1b;
+			font-size: 2em;
+			font-family: Franklin Gothic Medium;
+			text-align: ;
+		}
+		.titulos2{
+			color: #6c398c;
+			font-size: 2.5em;
+			font-family: Maiandra GD;
+			text-align: center;
+		}
+		.presen{
+			text-align: center;
+			font-family: sans-serif;
+			color: #131000;
+			font-size: 3em;
+		}
+		.impr{ 
+			display: block;
+			margin-left: auto ;
+			margin-right: auto;
+			width: 40%;
+		}
+		.nav {
+			width: 500;
+			margin: auto;
+		}
+		.nav li a {
+			background-color: #ee610d;
+			color: #fff4d2;
+			text-decoration: none;
+			padding: 10px 12px;
+			display: block;
+			font-family: Yu Gothic UI Semibold;
+		}
+		.nav li a:hover {
+			background-color: #ff9200;
+		}
+		.nav li ul {
+			display:  none;
+			position: absolute;
+			min-width: 140 px;
+		}
+		.nav li:hover > ul {
+			display: block;
+		} 
+		.nav li ul li{
+			position: relative;
+		}
+		.nav li ul li ul {
+			right: -50px;
+			top: 0px;
+		}
+		.log1{ 
+			display: block;
+			margin-left: auto ;
+			margin-right: auto;
+			width: 20%;
+
+		}
+	</style>
+</head>
+<body>
+	<img src="logoenca.png" width="100px" class="log1">
+	<header>CHUCHINUKIS</header>
+	<nav>
+		<ul class="nav"> 
+			<li><a href="#Ini">Principal/Main</a></li>
+			<li><a href="#Q_S">Sobre Nosotros/About Us</a>
+				<ul>
+					<li><a href="#Q_S">¿Quiénes Somos?/Who are we?</a></li>
+					<li><a href="#Mis">Misión/Mission</a></li>
+					<li><a href="#Vis">Visión/Vision</a></li>
+				</ul>
+			</li>
+			<li><a href="#men">Menú/Menu</a>
+				<ul>
+					<li><a href="#gom">Gomitas/Gummy candies</a></li>
+					<li><a href="#sna">Bocadillos/Snacks</a></li>
+					<li><a href="#fru">Fruta/Fruit</a></li>
+				</ul>
+			</li>
+			<li><a href="#ofer">Ofertas/Offers</a></li>
+			<li><a href="#ubi">Ubicación/location</a></li> 
+		</ul>
+	</nav>
+	<main>
+		<section>
+			<h1  id="Ini" class="titulos1">Principal/Main</h1>
+			<br>
+			<h1 class="presen">En todo momentukis, disfruta tu Chuchinukis
+			<br>
+			At every momentukis, enjoy your Chuchinukis.
+			</h1>
+			<img class="impr" src="logo.png" width="400px">
+			<br><br><br>
+			<hr>
+			<h1  id="Q_S" class="titulos1">¿Quiénes somos?/How Are We?</h1>
+			Chuchinukis es un emprendimiento apasionado por llevar alegría y sabor a cada momento del día. Nos dedicamos a la venta de snacks preparados como gomitas, frutas frescas (como piña y pepino), y antojitos bañados en Tajín, chamoy, limón y más delicias que despiertan los sentidos. Con un toque divertido, picosito y delicioso, creamos experiencias únicas para quienes aman los sabores intensos y auténticos.
+			<br>
+			Chuchinukis is a business passionate about bringing joy and flavor to every moment of the day. We specialize in selling prepared snacks such as gummy candies, fresh fruits (like pineapple and cucumber), and appetizers coated in Tajín, chamoy, lemon, and other delicacies that awaken the senses. With a fun, spicy, and delicious twist, we create unique experiences for those who love intense and authentic flavors.
+			<hr>
+			<h1   id="Mis" class="titulos1">Misión/Mission</h1>
+			Ofrecer snacks deliciosos, frescos y preparados al momento, combinando sabores tradicionales con un toque creativo y divertido, para acompañar a nuestros clientes en cada momento del día con calidad, sabor y buen servicio.
+			<br>
+			Offering delicious, fresh, and freshly prepared snacks, combining traditional flavors with a creative and fun twist, to accompany our customers at every moment of the day with quality, flavor, and good service.
+			<hr>
+			<h1 id="Vis" class="titulos1">Visión/Vision</h1>
+			Ser una marca reconocida a nivel local y nacional por innovar en la venta de snacks preparados, destacándonos por la calidad de nuestros productos, el cariño en la atención y el sabor único que hace de Chuchinukis una experiencia inolvidable.
+			<br>
+			To be a brand recognized locally and nationally for innovation in the sale of prepared snacks, standing out for the quality of our products, the care we take in serving our customers, and the unique flavor that makes Chuchinukis an unforgettable experience.
+			<hr>
+			<h1  id="men" class="titulos1">Menú/Menu</h1>
+			
+			<ol>
+				<li id="gom" class="titulos2">Gomitas Preparadas/Prepared Gummies</li>
+				<br>
+				Dulces, picositas y adictivamente deliciosas. Nuestras gomitas son preparadas con chamoy, Tajín, limón y ese toquecito secreto que hace que no puedas comer solo una. Perfectas para compartir… ¡o no compartir
+				<br>
+				Sweet, spicy, and addictively delicious. Our gummies are made with chamoy, Tajín, lemon, and that secret ingredient that makes it impossible to eat just one. Perfect for sharing... or not sharing.
+				<br><br>
+
+				<div>
+					<img src="GOMITAS1.png" title="GOMITAS1" alt="GOMITAS1" >
+					<img src="GOMITAS2.png" title="GOMITAS2" alt=" GOMITAS2">
+					<img src="GOMITAS3.png" alt="GOMITAS3" title="GOMITAS13">
+				</div>
+				<br><br>
+				<li id="sna" class="titulos2">Snaks Preparadas/Prepared Snacks</li>
+				<br>
+				Antojitos que combinan lo dulce, ácido y picante en cada bocado. Desde Takis,  y otros clásicos reinventados con nuestro estilo Chuchinukis: bañados, preparados y listos para hacerte salivar.
+				<br>
+				Snacks that combine sweet, sour, and spicy flavors in every bite. From Takis and other classics reinvented with our Chuchinukis style: coated, prepared, and ready to make your mouth water.	
+				<br><br>
+
+					<div>
+					<img src="SNACK1.png" title=" SNACK1" alt=" SNACK1" >
+					<img src="SNACK2.png" title="SNACK2" alt=" SNACK2">
+					<img src="SNACK3.png" alt="SNACK3" title="SNACK3">
+					<img src="SNACK4.png" alt="SNACK4" title="SNACK4" >
+					</div>
+					<br><br>
+				<li id="fru" class="titulos2">Fruta preparada/Prepared fruit</li>
+				<br>
+				Fresca, jugosa y con el toque exacto de chilito, limón y chamoy. Disfruta de combinaciones como piña, pepino y más, preparadas al momento para que cada mordida sea un momentukis lleno de sabor.
+				<br>
+				Fresh, juicy, and with just the right touch of chili, lemon, and chamoy. Enjoy combinations such as pineapple, cucumber, and more, prepared on the spot so that every bite is a moment full of flavor.
+				<br><br>
+				<div>
+					<img src="FRUTA1.png" title=" FRUTA1" alt=" FRUTA1" >
+					<img src="FRUTA2.png" title="FRUTA2" alt=" FRUTA2">
+				</div>
+				<br><br>
+			<hr>
+			<h1 id="ofer" class="titulos1">Ofertas/Offers</h1>
+			Espera un momentukis mientras creamos ofertukis
+			<br>
+			Espera un momentukis mientras creamos ofertukis
+			<hr>
+			<h1 id="ubi" class="titulos1">Ubicaciones/Location</h1>
+			Puedes visitarnos en cualquier momentukis en:
+			<br>
+			You can visit us anytime at:
+			<div>
+					<img src="UBI1.png" title="Ubicación1" alt="Ubicación1" >
+					<img src="UBI2.png" title="Ubicación2" alt="Ubicación2" >
+				</div>
+			<hr>
+
+
+        </section>
+        <aside class="link">
+        	<ol>
+			        		<li><a href="https://drive.google.com/file/d/1ZDSDMYVJEe_MbDH2GZFGikfi3HgpQGOt/view?usp=sharing ">Registro Mercantil CHUCHINUKIS</a></li>
+        		<br>
+        		<li><a href="https://drive.google.com/file/d/1pl6gJJF-cXd7-tVzVAfvu90vWtrhRZco/view?usp=sharing" target="blanck">Tarjeta de Salud Chuchinukis</a></li>
+        		<br>
+        		<li><a href="https://drive.google.com/file/d/1Y3-zJUP3lwvl2_GLzwQ7odO-4watkjUk/view?usp=sharing" target="blanck">Tarjeta de Pulmones Chuchinukis</a></li>
+
+        		
+        	</ol>
+        </aside>
+	</main>
+	<footer>
+		<h2> Redes Sociales/Social Networks</h2>
+			Facebook: @Chuchinukis Gt
+			<br>	
+			Instagram: @Chuchinukis_GUATE
+			<br>
+			X: ChuchinukisGT
+			<br>
+			Whastapp directo: 8892-5552
+	<br><br>
+	<h2> O contactanos/Or contact us </h2>
+			E-mail: chuchinukisgte@gmail.com
+			<br>
+			(502) 5556-4400
+			<br><br>
+	<h2>Tienda Central/Central Store</h2> 
+			0 Street 16-20 zone 4, Villa Nueva, Mall Metrocentro Villa Nueva, Guatemala
+			<br><br>
+		<h2>©2025 Chuchinukis. Todos los momentukis reservados</h2> 
+	
+		
+	</footer>
+</body>
+</html>
